@@ -1,0 +1,220 @@
+{
+    "html": [
+        {
+            "questionText": "What does HTML stand for?",
+            "answerOptions": [
+                { "answerText": "Home Tool Markup Language", "isCorrect": false },
+                { "answerText": "Hyper Text Markup Language", "isCorrect": true },
+                { "answerText": "Hyperlinks and Text Markup Language", "isCorrect": false },
+                { "answerText": "Hyper Markup Tool Language", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Who is making the Web standards?",
+            "answerOptions": [
+                { "answerText": "Mozilla", "isCorrect": false },
+                { "answerText": "Google", "isCorrect": false },
+                { "answerText": "The World Wide Web Consortium", "isCorrect": true },
+                { "answerText": "Microsoft", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Choose the correct HTML element for the largest heading?",
+            "answerOptions": [
+                { "answerText": "<head>", "isCorrect": false },
+                { "answerText": "<h1>", "isCorrect": true },
+                { "answerText": "<h2>", "isCorrect": false },
+                { "answerText": "<heanding>", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "What is the correct HTML element for inserting a line break?",
+            "answerOptions": [
+                { "answerText": "<br>", "isCorrect": true },
+                { "answerText": "<break>", "isCorrect": false },
+                { "answerText": "<lb>", "isCorrect": false },
+                { "answerText": "<brk>", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "What is the correct HTML for adding a background color?",
+            "answerOptions": [
+                { "answerText": "<body bg=yellow>", "isCorrect": false },
+                { "answerText": "<background>yellow</background>", "isCorrect": false },
+                { "answerText": "<body style=background:yellow>", "isCorrect": true },
+                { "answerText": "<body style=backgorund=yellow>", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Choose the correct HTML element to define important text",
+            "answerOptions": [
+                { "answerText": "<strong>", "isCorrect": true },
+                { "answerText": "<b>", "isCorrect": false },
+                { "answerText": "<important>", "isCorrect": false },
+                { "answerText": "<i>", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Choose the correct HTML element to define emphasized text",
+            "answerOptions": [
+                { "answerText": "<i>", "isCorrect": false },
+                { "answerText": "<italic>", "isCorrect": false },
+                { "answerText": "<em>", "isCorrect": true },
+                { "answerText": "<br>", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Which character is used to indicate an end tag?",
+            "answerOptions": [
+                { "answerText": "<", "isCorrect": false },
+                { "answerText": "^", "isCorrect": false },
+                { "answerText": "*", "isCorrect": false },
+                { "answerText": "/", "isCorrect": true }
+            ]
+        },
+        {
+            "questionText": "Inline elements are normally displayed without starting a new line.",
+            "answerOptions": [
+                { "answerText": "true", "isCorrect": true },
+                { "answerText": "false", "isCorrect": false },
+                { "answerText": "not sure", "isCorrect": false },
+                { "answerText": "both", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Inline elements are normally displayed without starting a new line.",
+            "answerOptions": [
+                { "answerText": "true", "isCorrect": true },
+                { "answerText": "false", "isCorrect": false },
+                { "answerText": "not sure", "isCorrect": false },
+                { "answerText": "both", "isCorrect": false }
+            ]
+        }
+    ],
+    "css": [
+        {
+            "questionText": "What does CSS stand for?",
+            "answerOptions": [
+                { "answerText": "Creative Style Sheets", "isCorrect": false },
+                { "answerText": "Cascading Style Sheets", "isCorrect": true },
+                { "answerText": "Colorful Style Sheets", "isCorrect": false },
+                { "answerText": "Computer Style Sheets", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "What is the correct HTML for referring to an external style sheet?",
+            "answerOptions": [
+                { "answerText": "<stylesheet>mystyle.css</stylesheet>", "isCorrect": false },
+                { "answerText": "<style>mystyle.css</style>", "isCorrect": false },
+                { "answerText": "<link rel=stylesheet type=text/css, href=mystyle.css/>", "isCorrect": true },
+                { "answerText": "<style src=mystyle.css/>", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Where in an HTML document is the correct place to refer to an external style sheet?",
+            "answerOptions": [
+                { "answerText": "At the end of the document", "isCorrect": false },
+                { "answerText": "In the <head> section", "isCorrect": false },
+                { "answerText": "In the <body> section", "isCorrect": true },
+                { "answerText": "In the <footer> section", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Which HTML tag is used to define an internal style sheet?",
+            "answerOptions": [
+                { "answerText": "<css>", "isCorrect": false },
+                { "answerText": "<style>", "isCorrect": true },
+                { "answerText": "<script>", "isCorrect": false },
+                { "answerText": "<styles>", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "How do you insert a comment in a CSS file?",
+            "answerOptions": [
+                { "answerText": "/*...*/", "isCorrect": false },
+                { "answerText": "'...'", "isCorrect": false },
+                { "answerText": "//...//", "isCorrect": false },
+                { "answerText": "//...", "isCorrect": true }
+            ]
+        },
+        {
+            "questionText": "Which property is used to change the background color?",
+            "answerOptions": [
+                { "answerText": "color", "isCorrect": false },
+                { "answerText": "bgcolor", "isCorrect": false },
+                { "answerText": "backgrund-color", "isCorrect": true },
+                { "answerText": "background", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Which CSS property is used to change the text color of an element?",
+            "answerOptions": [
+                { "answerText": "color", "isCorrect": true },
+                { "answerText": "fgcolor", "isCorrect": false },
+                { "answerText": "text-color", "isCorrect": false },
+                { "answerText": "txt-color", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Which CSS property controls the text size?",
+            "answerOptions": [
+                { "answerText": "text-style", "isCorrect": false },
+                { "answerText": "text-size", "isCorrect": false },
+                { "answerText": "font-size", "isCorrect": true },
+                { "answerText": "font-style", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "Which property is used to change the font of an element?",
+            "answerOptions": [
+                { "answerText": "font-style", "isCorrect": false },
+                { "answerText": "font-family", "isCorrect": true },
+                { "answerText": "font-weight", "isCorrect": false },
+                { "answerText": "font", "isCorrect": false }
+            ]
+        },
+        {
+            "questionText": "How do you make the text bold?",
+            "answerOptions": [
+                { "answerText": "style: bold", "isCorrect": false },
+                { "answerText": "font: bold", "isCorrect": false },
+                { "answerText": "font-weight: bold", "isCorrect": true },
+                { "answerText": "weight: bold", "isCorrect": false }
+            ]
+        }
+    ]
+}
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

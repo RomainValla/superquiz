@@ -1,0 +1,39 @@
+@import 'colors';
+
+.code-button {
+    border-radius: 5px;
+    border: none;
+    transition: all .2s ease-in;
+    margin: 0 auto;
+    font-size: $button;
+    background-color: $color-button;
+
+    &--small {
+        padding: 10px 30px;
+    }
+    &--medium {
+        padding: 20px 50px;
+    }
+    &--large {
+        padding: 30px 70px;
+    }
+  }
+  
+.code-button:hover {
+    transform: scale(1.05);
+}
+
+.code-button__theme {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    svg {
+        width: 24px;
+        height: auto;
+        vertical-align: middle;
+    }
+
+}

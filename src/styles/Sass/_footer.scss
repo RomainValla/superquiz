@@ -1,0 +1,40 @@
+.code-footer {
+    height: 100%;
+    background-color: $color-bg-tertiary;
+    .code-footer__content {
+        padding: 5rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .code-footer__text {
+            width: 40%;
+            margin: 0 0 5rem 0;
+            h3 {
+                color: $color-main;
+                font-family: $font-default;
+                font-size: $paragraph;
+                font-weight: bold;
+            }
+            p {
+                color: $color-main;
+                font-family: $font-default;
+                font-size: $sub-paragraph;
+                font-weight: normal;
+            }
+        }
+        .code-footer__item-list {
+            a {
+                margin: 0 12px;
+                svg {
+                    stroke: white;
+                }
+            }
+        }
+        @media screen and (max-width: 640px) {
+            .code-footer__text {
+                width: 80%;
+            }
+        }
+    }
+}
