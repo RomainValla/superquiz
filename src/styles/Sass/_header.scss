@@ -1,0 +1,42 @@
+@import 'typography';
+
+.code-navbar {
+    width: 100%;
+}
+.code-link {
+    text-decoration: none;
+}
+.code-navbar__content {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 5%;
+}
+.code-navbar__logo {
+    font-family: $font-default;
+    font-size: $branding;
+    font-weight: bold;
+    color: $color-headline;
+}
+.code-navbar__logo-wrapper {
+    width: auto;
+    height: auto;
+}
+.code-navbar__item-list {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.code-navbar__item {
+    font-family: $font-default;
+    font-size: $navigation;
+    font-weight: normal;
+    color: $color-headline;
+    padding: 0 24px;
+    justify-content: center;
+    user-select: none;
+}
